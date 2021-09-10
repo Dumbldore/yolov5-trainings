@@ -864,9 +864,13 @@ def verify_image_label(args):
     nm, nf, ne, nc, msg, segments = 0, 0, 0, 0, '', []  # number (missing, found, empty, corrupt), message, segments
     try:
         # verify images
+        print("1")
         im = Image.open(im_file)
+        print("2")
         im.verify()  # PIL verify
+        print("3")
         shape = exif_size(im)  # image size
+        print("4")
         assert (shape[0] > 9) & (shape[1] > 9), f'image size {shape} <10 pixels'
         assert im.format.lower() in IMG_FORMATS, f'invalid image format {im.format}'
         if im.format.lower() in ('jpg', 'jpeg'):
