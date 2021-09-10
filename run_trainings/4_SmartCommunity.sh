@@ -1,0 +1,1 @@
+python3  train.py  --device 0 --batch 32 --weights weights/yolov5s6.pt --data data/train/4_SmartCommunity.yaml --epochs 500 --img 640 --hyp hyp.scratch.yaml --name '4_SmartCommunity'
