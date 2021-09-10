@@ -43,8 +43,8 @@ def check_wandb_dataset(data_file):
     if check_file(data_file) and data_file.endswith('.yaml'):
         with open(data_file, errors='ignore') as f:
             data_dict = yaml.safe_load(f)
-        is_wandb_artifact = (data_dict['train'].startswith(WANDB_ARTIFACT_PREFIX) or
-                             data_dict['val'].startswith(WANDB_ARTIFACT_PREFIX))
+        # is_wandb_artifact = (data_dict['train'].startswith(WANDB_ARTIFACT_PREFIX) or
+        #                      data_dict['val'].startswith(WANDB_ARTIFACT_PREFIX))
     if is_wandb_artifact:
         return data_dict
     else:
