@@ -1,0 +1,1 @@
+python3 -m torch.distributed.launch --nproc_per_node 2 train.py --batch 32 --weights weights/yolov5m6.pt --data 3_SmartCommunity.yaml --epochs 500 --img 640 --hyp hyp.scratch.yaml --name '3_SmartCommunity'
