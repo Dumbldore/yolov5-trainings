@@ -30,16 +30,16 @@ train: [/home/oke/datasets/yolo_data/images/Egmond/train,
         /home/oke/datasets/yolo_data/images/mio_big/val,
         /home/oke/datasets/yolo_data/images/reda1/train]
 
-val: [/home/oke/datasets/yolo_data/images/Egmond/val,
-        /home/oke/datasets/yolo_data/images/Ivanec/val,
-        /home/oke/datasets/yolo_data/images/Ivanec_1/val,
-        /home/oke/datasets/yolo_data/images/Jablonowo/val,
-        /home/oke/datasets/yolo_data/images/Jackson_Town_Square/val,
-        /home/oke/datasets/yolo_data/images/Odessa/val,
-        /home/oke/datasets/yolo_data/images/Odessa_1/val,
-        /home/oke/datasets/yolo_data/images/Reda_dataset/val,
-        /home/oke/datasets/yolo_data/images/Traffic_Monitoring_4K_fr_408-1136/val,
-        /home/oke/datasets/yolo_data/images/reda1/val/]
+val: [/storage/yolo_data/images/Egmond/val,
+        /storage/yolo_data/images/Ivanec/val,
+        /storage/yolo_data/images/Ivanec_1/val,
+        /storage/yolo_data/images/Jablonowo/val,
+        /storage/yolo_data/images/Jackson_Town_Square/val,
+        /storage/yolo_data/images/Odessa/val,
+        /storage/yolo_data/images/Odessa_1/val,
+        /storage/yolo_data/images/Reda_dataset/val,
+        /storage/yolo_data/images/Traffic_Monitoring_4K_fr_408-1136/val,
+        /storage/yolo_data/images/reda1/val/]
 
 test: [/home/oke/datasets/yolo_data/images/Egmond/test,
         /home/oke/datasets/yolo_data/images/Ivanec/test,
