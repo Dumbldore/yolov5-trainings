@@ -24,7 +24,7 @@ train: [/home/oke/datasets/yolo_data/images/Egmond/train,
         /home/oke/datasets/yolo_data/images/Odessa_1/train,
         /home/oke/datasets/yolo_data/images/Reda_dataset/train,
         /home/oke/datasets/yolo_data/images/Traffic_Monitoring_4K_fr_408-1136/train,
-        /home/oke/datasets/yolo_data/images/Trafficcircle_derry_day/train,
+        #/home/oke/datasets/yolo_data/images/Trafficcircle_derry_day/train,
         /home/oke/datasets/yolo_data/images/empty_roads/train,
         /home/oke/datasets/yolo_data/images/mio_big/train,
         /home/oke/datasets/yolo_data/images/mio_big/test,
@@ -40,7 +40,7 @@ val: [/home/oke/datasets/yolo_data/images/Egmond/val,
         /home/oke/datasets/yolo_data/images/Odessa_1/val,
         /home/oke/datasets/yolo_data/images/Reda_dataset/val,
         /home/oke/datasets/yolo_data/images/Traffic_Monitoring_4K_fr_408-1136/val,
-        /home/oke/datasets/yolo_data/images/Trafficcircle_derry_day/val,
+        #/home/oke/datasets/yolo_data/images/Trafficcircle_derry_day/val,
         /home/oke/datasets/yolo_data/images/reda1/val/]
 
 test: [/home/oke/datasets/yolo_data/images/Egmond/test,
@@ -52,7 +52,7 @@ test: [/home/oke/datasets/yolo_data/images/Egmond/test,
         /home/oke/datasets/yolo_data/images/Odessa_1/test,
         /home/oke/datasets/yolo_data/images/Reda_dataset/test,
         /home/oke/datasets/yolo_data/images/Traffic_Monitoring_4K_fr_408-1136/test,
-        /home/oke/datasets/yolo_data/images/Trafficcircle_derry_day/test,
+        #/home/oke/datasets/yolo_data/images/Trafficcircle_derry_day/test,
         /home/oke/datasets/yolo_data/images/reda1/test/]
 
 # number of classes

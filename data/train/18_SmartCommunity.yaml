@@ -24,7 +24,7 @@ train: [/storage/yolo_data/images/Egmond/train,
         /storage/yolo_data/images/Odessa_1/train,
         /storage/yolo_data/images/Reda_dataset/train,
         /storage/yolo_data/images/Traffic_Monitoring_4K_fr_408-1136/train,
-        /storage/yolo_data/images/Trafficcircle_derry_day/train,
+        #/storage/yolo_data/images/Trafficcircle_derry_day/train,
         /storage/yolo_data/images/empty_roads/train,
         /storage/yolo_data/images/mio_big/train,
         /storage/yolo_data/images/mio_big/test,
@@ -39,7 +39,7 @@ train: [/storage/yolo_data/images/Egmond/train,
         /storage/yolo_data/images/Odessa_1/test,
         /storage/yolo_data/images/Reda_dataset/test,
         /storage/yolo_data/images/Traffic_Monitoring_4K_fr_408-1136/test,
-        /storage/yolo_data/images/Trafficcircle_derry_day/test,
+        #/storage/yolo_data/images/Trafficcircle_derry_day/test,
         /storage/yolo_data/images/reda1/test/]
 
 val: [/storage/yolo_data/images/Egmond/val,
@@ -51,7 +51,7 @@ val: [/storage/yolo_data/images/Egmond/val,
         /storage/yolo_data/images/Odessa_1/val,
         /storage/yolo_data/images/Reda_dataset/val,
         /storage/yolo_data/images/Traffic_Monitoring_4K_fr_408-1136/val,
-        /storage/yolo_data/images/Trafficcircle_derry_day/val,
+        #/storage/yolo_data/images/Trafficcircle_derry_day/val,
         /storage/yolo_data/images/reda1/val/]
 
 test: []
