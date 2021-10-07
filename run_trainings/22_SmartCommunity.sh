@@ -1,1 +1,1 @@
-python3 -m torch.distributed.launch --master_port 19465 --nproc_per_node  2  train.py  --device 0,1 --batch 28 --linear-lr --weights weights/yolov5m.pt --data data/train/22_SmartCommunity.yaml --epochs 500 --img 640 --hyp 1_Smart_best_hypes_2901.yaml --name '22_SmartCommunity'
+python3 -m torch.distributed.launch --master_port 19465 --nproc_per_node  2  train.py  --device 0,1 --batch 28 --linear-lr --weights weights/yolov5m.pt --data data/train/22_SmartCommunity_evolve.yaml --epochs 500 --img 640 --hyp 1_Smart_best_hypes_2901.yaml --name '22_SmartCommunity'
