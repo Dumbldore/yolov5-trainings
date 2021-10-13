@@ -1,0 +1,1 @@
+python3 val.py --data data/train/17_SmartCommunity.yaml --weights
