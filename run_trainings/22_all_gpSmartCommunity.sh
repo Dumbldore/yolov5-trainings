@@ -1,0 +1,1 @@
+python3 -m torch.distributed.launch --master_port 19445 --nproc_per_node  5  train.py  --device 0,1,2,3,4 --batch 28 --linear-lr --weights weights/yolov5m.pt --data data/train/22_SmartCommunity.yaml --epochs 500 --img 640 --hyp hyp_evolve_22.yaml --name '22_SmartCommunity_new_hyps_all_gpu'
