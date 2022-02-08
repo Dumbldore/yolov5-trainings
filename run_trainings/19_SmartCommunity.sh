@@ -1,0 +1,1 @@
+python3 -m torch.distributed.launch --master_port 17805 --nproc_per_node  2  train.py  --device 0,7 --batch 32 --linear-lr --weights "" --data data/train/19_SmartCommunity.yaml --epochs 500 --img 640 --hyp 1_Smart_best_hypes_2901.yaml --name '19_SmartCommunity' --cfg yolov5m6.yaml

@@ -1,0 +1,1 @@
+python3 val.py --data data/train/17_SmartCommunity.yaml --weights runs/train/22_SmartCommunity/weights/best.pt --project "val_17_22"
