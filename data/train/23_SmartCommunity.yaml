@@ -10,7 +10,8 @@
 #download: bash data/scripts/get_coco.sh
 # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
 train: [/storage/yolo_data/images/Egmond/train,
-        /storage/yolo_data/images/M-30-HD/train,
+        /storage/yolo_data/images/
+          /train,
         /storage/yolo_data/images/M-30-HD/val,
         /storage/yolo_data/images/M-30-HD/test,
         /storage/yolo_data/images/Gram_M-30/train,
