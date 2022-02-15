@@ -33,10 +33,10 @@ train: [ /home/oke/datasets/new_yolo_dataset/images/Reda_dataset/val,
          /home/oke/datasets/new_yolo_dataset/images/MOT2015/val,
          /home/oke/datasets/new_yolo_dataset/images/wilkowyje/train,
          /home/oke/datasets/new_yolo_dataset/images/wilkowyje/val,
-         /storage/yolo_data/images/Trafficcircle_derry_day/train,
-         /storage/yolo_data/images/Trafficcircle_derry_day/val,
-         /storage/yolo_data/images/TownCentre/train,
-         /storage/yolo_data/images/TownCentre/val,
+         /home/oke/datasets/yolo_data/images/Trafficcircle_derry_day/train,
+         /home/oke/datasets/yolo_data/images/Trafficcircle_derry_day/val,
+         /home/oke/datasets/yolo_data/images/TownCentre/train,
+         /home/oke/datasets/yolo_data/images/TownCentre/val,
 ]
 
 val: [
