@@ -1,0 +1,1 @@
+python3 train.py --device 1 --batch 28 --linear-lr  --weights weights/yolov5m6.pt --data data/train/v6_1.yaml --epochs 150 --img 640 --hyp hyp.scratch.yaml --exist-ok --name 'v6_2' --cfg yolov5m6.yaml
