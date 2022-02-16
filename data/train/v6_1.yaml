@@ -40,14 +40,14 @@ train: [ /home/oke/datasets/new_yolo_dataset/images/Reda_dataset/val,
 ]
 
 val: [
+  /home/oke/datasets/new_yolo_dataset/images/starogard_selected/val/,
         /home/oke/datasets/new_yolo_dataset/images/Odessa/val,
         /home/oke/datasets/new_yolo_dataset/images/Odessa/train,
         /home/oke/datasets/new_yolo_dataset/images/Odessa_1/val,
         /home/oke/datasets/new_yolo_dataset/images/Odessa_1/train,
         /home/oke/datasets/new_yolo_dataset/images/reda1/val/,
         /home/oke/datasets/new_yolo_dataset/images/reda1/train,
-        /home/oke/datasets/new_yolo_dataset/images/starogard_selected/train/,
-        /home/oke/datasets/new_yolo_dataset/images/starogard_selected/val/
+        /home/oke/datasets/new_yolo_dataset/images/starogard_selected/train/
 ]
 
 test: [ ]
