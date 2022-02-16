@@ -367,6 +367,7 @@ def train(hyp,  # path/to/hyp.yaml or hyp dictionary
             final_epoch = (epoch + 1 == epochs) or stopper.possible_stop
             if not noval or final_epoch:  # Calculate mAP
                 results, maps, _ = val.run(data_dict,
+                                           conf_thres=0.3,
                                            batch_size=batch_size // WORLD_SIZE * 2,
                                            imgsz=imgsz,
                                            model=ema.ema,
