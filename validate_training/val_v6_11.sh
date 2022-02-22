@@ -1,0 +1,1 @@
+python3 val.py --data data/train/v6_1.yaml --weights runs/train/v6_11/weights/best.pt --project "val_v6_11" --verbose --conf-thres 0.001 --batch-size 28
