@@ -1,0 +1,1 @@
+python3 -m torch.distributed.launch --master_port 12427 --nproc_per_node  1  train.py  --device 6 --patience 20 --label-smoothing 0.01 --batch 28 --weights weights/yolov5m6.pt --data data/train/v6_2.yaml  --epochs 100 --img 640 --optimizer "AdamW" --hyp hyp.scratch-high.yaml --exist-ok --name 'v6_19' --cfg yolov5m6.yaml
