@@ -50,7 +50,6 @@ val: [
         /home/oke/datasets/new_yolo_dataset/images/reda1/val/,
         /home/oke/datasets/new_yolo_dataset/images/reda1/train,
         /home/oke/datasets/new_yolo_dataset/images/starogard_selected/train/,
-        /home/oke/datasets/new_yolo_dataset/images/starogard_selected/val/
 ]
 
 test: [ ]
